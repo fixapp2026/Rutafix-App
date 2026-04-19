@@ -11,6 +11,7 @@ import com.example.rutafix.models.Usuario
 import com.example.rutafix.supabase.SupabaseConfig
 import com.google.android.material.textfield.TextInputEditText
 import com.inicio.Home
+import com.main.MainActivity
 import io.github.jan.supabase.auth.auth
 import io.github.jan.supabase.auth.providers.builtin.Email
 import io.github.jan.supabase.postgrest.postgrest
@@ -35,7 +36,8 @@ class Login : AppCompatActivity() {
             val pass = editPass.text.toString().trim()
 
             if (email.isEmpty() || pass.isEmpty()) {
-                Toast.makeText(this, "Por favor, ingresa correo y contraseña", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,
+                    getString(R.string.por_favor_ingresa_correo_y_contrase_a), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
@@ -63,13 +65,15 @@ class Login : AppCompatActivity() {
                 val userId = SupabaseConfig.client.auth.currentUserOrNull()?.id
 
                 if (userId != null) {
-                    Toast.makeText(this@Login, "¡Autenticado! Verificando permisos...", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@Login,
+                        getString(R.string.autenticado_verificando_permisos), Toast.LENGTH_SHORT).show()
                     // llamamos a la función que revisa si es Admin o Usuario
                     validarRolYRedirigir(userId)
                 }
 
             } catch (e: Exception) {
-                Toast.makeText(this@Login, "Credenciales incorrectas o el usuario no existe", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@Login,
+                    getString(R.string.credenciales_incorrectas_o_el_usuario_no_existe), Toast.LENGTH_LONG).show()
             }
         }
     }
@@ -83,10 +87,12 @@ class Login : AppCompatActivity() {
 
                 // Redirigimos según el rol
                 if (usuarioBD.rol == "admin") {
-                    val intent = Intent(this@Login, AdminActivity::class.java) // <- Nueva Activity
+                    // Si es jefe, va al panel de Admin
+                    val intent = Intent(this@Login, AdminActivity::class.java)
                     startActivity(intent)
                 } else {
-                    val intent = Intent(this@Login, Home::class.java) // <- Tu Activity actual de usuarios
+                    // CORRECCIÓN: Si es cliente, va a su MainActivity, ¡no al Home!
+                    val intent = Intent(this@Login, MainActivity::class.java)
                     startActivity(intent)
                 }
                 finish()

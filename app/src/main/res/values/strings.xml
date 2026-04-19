@@ -205,5 +205,15 @@
     <string name="admin_tecnicos_title">Gestión de Técnicos</string>
     <string name="admin_reportes_title">Reportes de Servicio</string>
     <string name="error_datos">Error al cargar los datos</string>
+    <string name="credenciales_incorrectas_o_el_usuario_no_existe">Credenciales incorrectas o el usuario no existe</string>
+    <string name="autenticado_verificando_permisos">¡Autenticado! Verificando permisos...</string>
+    <string name="por_favor_ingresa_correo_y_contrase_a">Por favor, ingresa correo y contraseña</string>
+    <string name="agregar_t_cnico">Agregar Técnico</string>
+    <string name="foto_del_mec_nico">Foto del mecánico</string>
+    <string name="nombre_mec_nico">Nombre Mecánico</string>
+    <string name="descripci_n_corta_del_experto">Descripción corta del experto</string>
+    <string name="precio_0_000_cop">Precio: 0.000 COP</string>
+    <string name="contratar">Contratar</string>
+    <string name="abrir_formulario_de_nuevo_t_cnico">Abrir formulario de nuevo técnico</string>
 
 </resources>
