@@ -215,5 +215,19 @@
     <string name="precio_0_000_cop">Precio: 0.000 COP</string>
     <string name="contratar">Contratar</string>
     <string name="abrir_formulario_de_nuevo_t_cnico">Abrir formulario de nuevo técnico</string>
+    <string name="logo_admin">Logo Admin</string>
+    <string name="perfil_administrador">Perfil Administrador</string>
+    <string name="gesti_n_de_rutafix">Gestión de RutaFix</string>
+    <string name="volver">Volver</string>
+    <string name="nuevo_t_cnico">Nuevo Técnico</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="especialidad_ej_gr_a_mec_nico">Especialidad (Ej: Grúa, Mecánico)</string>
+    <string name="precio_base_cop">Precio base (COP)</string>
+    <string name="guardar_t_cnico">Guardar Técnico</string>
+    <string name="emilio">Emilio</string>
+    <string name="gaviria">Gaviria</string>
+    <string name="_3001234567">3001234567</string>
+    <string name="nombre_del_usuario">Nombre del Usuario</string>
+    <string name="usuario_rutafix_com">usuario@rutafix.com</string>
 
 </resources>

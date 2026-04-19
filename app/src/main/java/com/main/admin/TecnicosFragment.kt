@@ -1,5 +1,6 @@
 package com.main.admin
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -36,8 +37,9 @@ class TecnicosFragment : Fragment() {
 
         // Acción interactiva del botón
         fabAgregarTecnico.setOnClickListener {
-            Toast.makeText(requireContext(),
-                getString(R.string.abrir_formulario_de_nuevo_t_cnico), Toast.LENGTH_SHORT).show()
+            // Reemplazamos el Toast por el Intent
+            val intent = Intent(requireContext(), AgregarTecnicoActivity::class.java)
+            startActivity(intent)
         }
 
         return view

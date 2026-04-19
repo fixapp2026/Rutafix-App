@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <ImageButton
+            android:id="@+id/btnVolverReportes"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_launcher_foreground" app:tint="@color/azul_oscuro"
+            android:contentDescription="Volver" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalle del Servicio"
+            android:textColor="@color/azul_oscuro"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#F0F4F8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Servicio Solicitado"
+                android:textSize="12sp"
+                android:textColor="@color/gris" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grúa de Plataforma"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/azul_profundo"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cliente"
+                android:textSize="12sp"
+                android:textColor="@color/gris" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Andrés Felipe"
+                android:textSize="16sp"
+                android:textColor="@color/negro"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado Actual"
+                android:textSize="12sp"
+                android:textColor="@color/gris" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En Camino (15 min)"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/verde"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginVertical="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Técnico Asignado"
+                android:textSize="12sp"
+                android:textColor="@color/gris" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="4dp">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_launcher_foreground" app:tint="@color/azul_oscuro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carlos Rodríguez"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul_profundo"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#E0E0E0"
+        android:text="Mapa de seguimiento simulado\n(Integración futura de Google Maps)"
+        android:gravity="center"
+        android:textColor="@color/gris"
+        android:textSize="14sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnContactarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Contactar Cliente"
+        android:backgroundTint="@color/azul_oscuro"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        app:cornerRadius="8dp" />
+
+    <Button
+        android:id="@+id/btnCerrarServicio"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Finalizar Servicio"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/naranja"
+        app:strokeColor="@color/naranja"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="8dp" />
+
+</LinearLayout>

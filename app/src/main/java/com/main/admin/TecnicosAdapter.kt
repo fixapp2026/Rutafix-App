@@ -36,9 +36,14 @@ class TecnicosAdapter(private val listaTecnicos: List<TecnicoDummy>) :
         holder.tvDescripcion.text = tecnico.descripcion
         holder.tvPrecio.text = tecnico.precio
 
-        // Interacción visual básica para cumplir con la rúbrica
+        // Interacción visual básica
         holder.btnContratar.setOnClickListener {
             Toast.makeText(holder.itemView.context, "Opciones de ${tecnico.nombre}", Toast.LENGTH_SHORT).show()
+        }
+        holder.itemView.setOnClickListener {
+            val intent = android.content.Intent(holder.itemView.context, PerfilTecnicoActivity::class.java)
+            intent.putExtra("NOMBRE_TECNICO", tecnico.nombre)
+            holder.itemView.context.startActivity(intent)
         }
     }
 

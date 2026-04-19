@@ -87,12 +87,10 @@ class Login : AppCompatActivity() {
 
                 // Redirigimos según el rol
                 if (usuarioBD.rol == "admin") {
-                    // Si es jefe, va al panel de Admin
-                    val intent = Intent(this@Login, AdminActivity::class.java)
+                    val intent = Intent(this@Login, com.main.admin.AdminActivity::class.java)
                     startActivity(intent)
                 } else {
-                    // CORRECCIÓN: Si es cliente, va a su MainActivity, ¡no al Home!
-                    val intent = Intent(this@Login, MainActivity::class.java)
+                    val intent = Intent(this@Login, com.main.MainActivity::class.java)
                     startActivity(intent)
                 }
                 finish()

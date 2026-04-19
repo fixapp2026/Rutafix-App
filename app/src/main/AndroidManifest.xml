@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rutafix">
 
-        <!-- Splash Screen: Punto de entrada corregido -->
+        <!-- Splash Screen: Punto de entrada -->
         <activity
             android:name="com.inicio.Splash"
             android:exported="true">
@@ -48,17 +48,14 @@
             android:exported="false"
             android:label="@string/forgot_title" />
 
-        <!-- Actividades Principales -->
-        <activity
-            android:name="com.main.MainActivity"
-            android:exported="false"
-            android:label="RutaFix" />
-
-        <activity
-            android:name="com.main.admin.AdminActivity"
-            android:exported="false"
-            android:label="Panel de Administrador" />
-
+        <!-- Actividades Principales del Admin -->
+        <activity android:name="com.main.admin.AdminActivity" android:exported="false"/>
+        <activity android:name="com.main.admin.AgregarTecnicoActivity" android:exported="false"/>
+        <activity android:name="com.main.admin.DetalleReporteActivity" android:exported="false"/>
+        <activity android:name="com.main.admin.AdminEditarPerfilActivity" android:exported="false"/>
+        <activity android:name="com.main.admin.HistorialTecnicoActivity" android:exported="false"/>
+        <activity android:name="com.main.admin.PerfilTecnicoActivity" android:exported="false"/>
+        <activity android:name="com.main.MainActivity" android:exported="false" />
     </application>
 
 </manifest>
