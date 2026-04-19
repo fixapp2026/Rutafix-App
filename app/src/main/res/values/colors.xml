@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="negro">#FF000000</color>
+    <color name="blanco">#FFFFFFFF</color>
+
+    <color name="azul">#00A8E8</color>
+    <color name="verde">#4CAF50</color>
+    <color name="gris">#808080</color>
+
+    <color name="azul_oscuro">#00416A</color>
+    <color name="azul_profundo">#002B45</color>
+    <color name="azul_claro">#00A8E8</color>
+    <color name="naranja">#F59E0B</color>
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">RutaFix</string>
+
+    <!-- Splash -->
+    <string name="splash_title">RutaFix</string>
+    <string name="splash_subtitle">Tu apoyo en carretera</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Asistencia en carretera</string>
+    <string name="onboarding_desc_1">Solicita ayuda de forma rápida y segura cuando más lo necesites.</string>
+    <string name="onboarding_title_2">Encuentra productos y repuestos</string>
+    <string name="onboarding_desc_2">Explora opciones útiles para tu vehículo dentro de la app.</string>
+    <string name="onboarding_title_3">Conecta con la comunidad</string>
+    <string name="onboarding_desc_3">Comparte experiencias y accede a una red pensada para conductores.</string>
+
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_omitir">Omitir</string>
+    <string name="btn_comenzar">Comenzar</string>
+
+    <!-- Login -->
+    <string name="login_title">Bienvenido de nuevo</string>
+    <string name="login_subtitle">Inicia sesión para continuar en RutaFix</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="go_register">Regístrate</string>
+
+    <!-- Registro -->
+    <string name="register_title">Crear cuenta</string>
+    <string name="register_subtitle">Completa tus datos para registrarte</string>
+    <string name="name_hint">Nombres</string>
+    <string name="lastname_hint">Apellidos</string>
+    <string name="phone_hint">Teléfono</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="user_type_hint">Tipo de usuario</string>
+    <string name="driver_option">Conductor</string>
+    <string name="mechanic_option">Mecánico</string>
+    <string name="terms_text">Acepto los términos y condiciones</string>
+    <string name="btn_register">Crear cuenta</string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+    <string name="go_login">Inicia sesión</string>
+
+    <!-- Recuperar contraseña -->
+    <string name="forgot_title">Recuperar contraseña</string>
+    <string name="forgot_subtitle">Ingresa tu correo y te mostraremos el siguiente paso</string>
+    <string name="btn_send">Enviar</string>
+    <string name="back_login">Volver al inicio de sesión</string>
+
+    <!-- Perfil -->
+    <string name="profile_title">Mi Perfil</string>
+    <string name="profile_edit">Editar Perfil</string>
+    <string name="profile_settings_section">Configuración de cuenta</string>
+    <string name="profile_my_vehicles">Mis vehículos</string>
+    <string name="profile_security">Seguridad</string>
+    <string name="profile_payments">Métodos de pago</string>
+    <string name="profile_help">Ayuda y soporte</string>
+    <string name="profile_logout">Cerrar sesión</string>
+
+    <!-- Detalle de Producto -->
+    <string name="product_detail_title">Detalle del Producto</string>
+    <string name="product_description_label">Descripción</string>
+    <string name="product_add_to_cart">Agregar al carrito</string>
+    <string name="product_buy_now">Comprar ahora</string>
+
+    <!-- Tienda / Carrito -->
+    <string name="cart_title">Carrito</string>
+    <string name="cart_summary_title">Resumen del pedido</string>
+    <string name="cart_subtotal">Subtotal</string>
+    <string name="cart_shipping">Envío</string>
+    <string name="cart_total">Total</string>
+    <string name="cart_btn_checkout">Continuar compra</string>
+    <string name="cart_btn_continue_shopping">Seguir comprando</string>
+    <string name="cat_logo_de_productos_rutafix">Catálogo de Productos</string>
+    <string name="nombre_del_producto">Nombre del Producto</string>
+    <string name="marca">Marca</string>
+    <string name="_0_000_cop">0.000 COP</string>
+    <string name="agregar">Agregar</string>
+
+    <!-- Finalización de Compra -->
+    <string name="checkout_title">Finalizar Compra</string>
+    <string name="checkout_shipping_address">Dirección de Envío</string>
+    <string name="checkout_payment_method">Método de Pago</string>
+    <string name="checkout_confirm_btn">Confirmar y Pagar</string>
+    <string name="checkout_success_title">¡Compra Exitosa!</string>
+    <string name="checkout_success_desc">Tu pedido ha sido procesado correctamente.</string>
+
+    <!-- Solicitar Servicio -->
+    <string name="service_request_title">Solicitar servicio</string>
+    <string name="service_request_subtitle">Selecciona el tipo de asistencia que necesitas</string>
+    <string name="service_crane">Grúa</string>
+    <string name="service_mechanic">Mecánico Vial</string>
+    <string name="service_tire_change">Cambio de neumático</string>
+    <string name="service_fuel">Combustible</string>
+    <string name="service_locksmith">Cerrajero vial</string>
+    <string name="service_jump_start">Paso de corriente</string>
+    <string name="service_location_label">Tu ubicación actual</string>
+    <string name="service_location_placeholder">Detectando ubicación…</string>
+    <string name="service_btn_confirm">Confirmar solicitud</string>
+    <string name="service_stations_title">Estaciones de Servicio</string>
+    <string name="service_stations_desc">Combustible y neumáticos</string>
+
+    <!-- Seguimiento del Servicio -->
+    <string name="tracking_title">Seguimiento</string>
+    <string name="tracking_status_on_way">En camino</string>
+    <string name="tracking_technician_label">Técnico asignado</string>
+    <string name="tracking_eta">Tiempo estimado: 15 min</string>
+    <string name="tracking_step_1">Solicitud recibida</string>
+    <string name="tracking_step_2">Técnico asignado</string>
+    <string name="tracking_step_3">En camino</string>
+    <string name="tracking_step_4">Servicio en proceso</string>
+    <string name="tracking_btn_support">Contactar soporte</string>
+    <string name="tracking_btn_cancel">Cancelar solicitud</string>
+
+    <!-- Calificación del Servicio -->
+    <string name="rating_title">Valora tu experiencia</string>
+    <string name="rating_thank_you">¡Gracias por usar RutaFix!</string>
+    <string name="rating_subtitle">Tu opinión nos ayuda a mejorar nuestro servicio.</string>
+    <string name="rating_summary_label">Resumen del servicio</string>
+    <string name="rating_comment_hint">Cuéntanos más sobre tu experiencia (opcional)</string>
+    <string name="rating_btn_send">Enviar calificación</string>
+    <string name="rating_btn_skip">Más tarde</string>
+
+    <!-- Ajustes y Configuración -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_subtitle">Personaliza tu experiencia en RutaFix</string>
+    <string name="settings_category_account">Cuenta</string>
+    <string name="settings_category_preferences">Preferencias</string>
+    <string name="settings_category_support">Soporte</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_privacy">Privacidad</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_about">Acerca de RutaFix</string>
+
+    <!-- Privacidad -->
+    <string name="privacy_title">Privacidad</string>
+    <string name="privacy_subtitle">Gestiona cómo se usa y comparte tu información</string>
+    <string name="privacy_share_location">Compartir ubicación</string>
+    <string name="privacy_export_data">Exportar información</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="privacy_terms">Términos de servicio</string>
+    <string name="privacy_delete_account">Eliminar cuenta</string>
+    <string name="privacy_info_title">Tus datos están protegidos</string>
+    <string name="privacy_info_desc">En RutaFix nos tomamos en serio tu seguridad. Controla los permisos y el acceso a tus datos en cualquier momento.</string>
+
+    <!-- Ayuda y Soporte -->
+    <string name="support_title">Ayuda y Soporte</string>
+    <string name="support_subtitle">Estamos aquí para ayudarte</string>
+    <string name="support_category_assistance">Asistencia</string>
+    <string name="support_category_info">Información de la App</string>
+    <string name="support_tech_support">Soporte Técnico</string>
+    <string name="support_faq">Preguntas Frecuentes</string>
+    <string name="support_about_app">Acerca de RutaFix</string>
+    <string name="support_team_credits">Créditos del Equipo</string>
+    <string name="support_rate_app">Calificar Aplicación</string>
+    <string name="support_btn_contact">Contactar soporte técnico</string>
+
+    <!-- Comunidad -->
+    <string name="community_title">Comunidad</string>
+    <string name="community_subtitle">Descubre novedades, recomendaciones y comunidad</string>
+    <string name="community_category_commercial">Novedades y Ofertas</string>
+    <string name="community_category_social">Tips y Comunidad</string>
+    <string name="community_btn_see_more">Ver más</string>
+
+    <!-- Confirmación de Salida -->
+    <string name="logout_dialog_title">Cerrar sesión</string>
+    <string name="logout_dialog_message">¿Seguro que deseas salir de tu cuenta? Se cerrará tu sesión actual en RutaFix.</string>
+    <string name="logout_dialog_btn_confirm">Cerrar sesión</string>
+    <string name="logout_dialog_btn_cancel">Cancelar</string>
+
+    <!-- Navegación y Menús -->
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_productos">Tienda</string>
+    <string name="menu_tienda">Tienda</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_comunidad">Comunidad</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_servicios">Servicios</string>
+    <string name="menu_grua">Solicitar</string>
+    <string name="menu_mi_cuenta">Mi Cuenta</string>
+    <string name="menu_salir">Cerrar Sesión</string>
+
+    <!-- Otros -->
+    <string name="desc_logo_app">Logo de RutaFix</string>
+    <string name="espacio_en_blanco">Espacio en blanco</string>
+    <string name="bienvenido_a_tu_aventura">¡Bienvenido a tu aventura!</string>
+
+    <!-- Campos de edición -->
+    <string name="campos_obligatorios_vacios">Campos obligatorios vacíos</string>
+    <string name="claves_no_coinciden">Las claves no coinciden</string>
+    <string name="error_clave_corta">La clave debe tener mínimo 6 caracteres</string>
+    <string name="perfil_actualizado_exito">Perfil actualizado con éxito</string>
+    <string name="nueva_contrase_a_opcional">Nueva contraseña (opcional)</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+
+</resources>

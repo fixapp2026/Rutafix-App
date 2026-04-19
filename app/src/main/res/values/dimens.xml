@@ -1,0 +1,28 @@
+<resources>
+    <!-- Padding / Margin -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Radius -->
+    <dimen name="radius_sm">8dp</dimen>
+    <dimen name="radius_md">12dp</dimen>
+    <dimen name="radius_lg">20dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_heading">28sp</dimen>
+
+    <!-- Buttons / Inputs -->
+    <dimen name="input_height">56dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+
+    <!-- Logo / Image -->
+    <dimen name="logo_size">120dp</dimen>
+    <dimen name="onboarding_image_height">260dp</dimen>
+</resources>

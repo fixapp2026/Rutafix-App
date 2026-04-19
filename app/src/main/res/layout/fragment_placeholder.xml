@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_xl">
+
+    <!-- Logo de la marca (Sin tint para respetar colores originales) -->
+    <ImageView
+        android:id="@+id/iv_placeholder_icon"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/desc_logo_app" />
+
+    <!-- Título de la Sección -->
+    <TextView
+        android:id="@+id/tv_placeholder_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sección en Construcción"
+        android:textColor="@color/azul_profundo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <!-- Mensaje Informativo -->
+    <TextView
+        android:id="@+id/tv_placeholder_mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:fontFamily="sans-serif"
+        android:text="Esta pantalla será parte de la próxima actualización de RutaFix. Estamos trabajando para darte el mejor servicio."
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4sp" />
+
+</LinearLayout>

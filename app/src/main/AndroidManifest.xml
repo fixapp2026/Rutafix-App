@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rutafix">
+
+        <!-- 1. Home es el punto de partida -->
+        <activity
+            android:name="com.inicio.Home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 2. Splash (intermedio) -->
+        <activity
+            android:name="com.inicio.Splash"
+            android:exported="false" />
+
+        <!-- 3. Login -->
+        <activity
+            android:name="com.example.rutafix.Login"
+            android:exported="false" />
+
+        <!-- 4. Recuperación de contraseña -->
+        <activity
+            android:name="com.example.rutafix.ForgotPasswordActivity"
+            android:exported="false"
+            android:label="@string/forgot_title" />
+
+        <!-- 5. Registro -->
+        <activity
+            android:name="com.example.rutafix.Registro"
+            android:exported="false" />
+
+        <!-- 6. Main (Menú con Fragments) -->
+        <activity
+            android:name="com.main.MainActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
