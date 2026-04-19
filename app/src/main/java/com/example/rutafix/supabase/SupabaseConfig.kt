@@ -8,8 +8,8 @@ import io.ktor.client.engine.android.Android
 
 object SupabaseConfig {
     
-    private const val SUPABASE_URL = "https://livxjniasxpiydiwmcbm.supabase.co"
-    private const val SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxpdnhqbmlhc3hwaXlkaXdtY2JtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU1MTYxNjUsImV4cCI6MjA5MTA5MjE2NX0.NLF-EY3pHn-6yitHkLdZ6QD9Ccs_DUQGki8GKKhbx2Q"
+    private const val SUPABASE_URL = "https://etjnzvgjfzeebthozvyi.supabase.co"
+    private const val SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV0am56dmdqZnplZWJ0aG96dnlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU1MTY2MDAsImV4cCI6MjA5MTA5MjYwMH0.GtM6ZUn8rMYUMYP2P-81s9enL3GOsWCLuWtYasWb1Ok"
 
     val client: SupabaseClient by lazy {
         createSupabaseClient(

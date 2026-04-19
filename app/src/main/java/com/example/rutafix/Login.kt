@@ -7,12 +7,17 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.example.rutafix.models.Usuario
 import com.example.rutafix.supabase.SupabaseConfig
 import com.google.android.material.textfield.TextInputEditText
-import com.main.MainActivity
+import com.inicio.Home
 import io.github.jan.supabase.auth.auth
 import io.github.jan.supabase.auth.providers.builtin.Email
+import io.github.jan.supabase.postgrest.postgrest
 import kotlinx.coroutines.launch
+import com.main.admin.AdminActivity
+import kotlin.jvm.java
+
 
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,11 +59,40 @@ class Login : AppCompatActivity() {
                     this.email = email
                     this.password = pass
                 }
-                Toast.makeText(this@Login, "¡Bienvenido de nuevo!", Toast.LENGTH_SHORT).show()
-                startActivity(Intent(this@Login, MainActivity::class.java))
-                finish()
+
+                val userId = SupabaseConfig.client.auth.currentUserOrNull()?.id
+
+                if (userId != null) {
+                    Toast.makeText(this@Login, "¡Autenticado! Verificando permisos...", Toast.LENGTH_SHORT).show()
+                    // llamamos a la función que revisa si es Admin o Usuario
+                    validarRolYRedirigir(userId)
+                }
+
             } catch (e: Exception) {
                 Toast.makeText(this@Login, "Credenciales incorrectas o el usuario no existe", Toast.LENGTH_LONG).show()
+            }
+        }
+    }
+    private fun validarRolYRedirigir(userId: String) {
+        lifecycleScope.launch {
+            try {
+                // Consultamos la tabla Usuarios para traer el perfil completo
+                val usuarioBD = SupabaseConfig.client.postgrest["Usuarios"]
+                    .select { filter { eq("id", userId) } }
+                    .decodeSingle<Usuario>()
+
+                // Redirigimos según el rol
+                if (usuarioBD.rol == "admin") {
+                    val intent = Intent(this@Login, AdminActivity::class.java) // <- Nueva Activity
+                    startActivity(intent)
+                } else {
+                    val intent = Intent(this@Login, Home::class.java) // <- Tu Activity actual de usuarios
+                    startActivity(intent)
+                }
+                finish()
+
+            } catch (e: Exception) {
+                Toast.makeText(this@Login, getString(R.string.error_datos), Toast.LENGTH_SHORT).show()
             }
         }
     }

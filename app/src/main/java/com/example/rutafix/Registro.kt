@@ -77,14 +77,16 @@ class Registro : AppCompatActivity() {
                             id = userId,
                             nombres = nombre,
                             apellidos = apellido,
-                            rol = Admin
+                            correo = email,
+                            rol = "usuario"
                         )
-                        SupabaseConfig.client.postgrest["usuarios"].insert(nuevoUsuario)
+                        // IMPORTANTE: "Usuarios" con U mayúscula como en tu base de datos
+                        SupabaseConfig.client.postgrest["Usuarios"].insert(nuevoUsuario)
                         Toast.makeText(this@Registro, "¡Registro completado!", Toast.LENGTH_SHORT).show()
                         startActivity(Intent(this@Registro, Login::class.java))
                         finish()
                     } catch (dbError: Exception) {
-                        Toast.makeText(this@Registro, "Error al guardar datos de usuario", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@Registro, "Error al guardar datos: ${dbError.message}", Toast.LENGTH_LONG).show()
                     }
                 }
             } catch (e: Exception) {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_admin_tecnicos"
+        android:icon="@drawable/llave_inglesa"
+        android:title="@string/menu_admin_tecnicos" />
+    <item
+        android:id="@+id/nav_admin_reportes"
+        android:icon="@drawable/terminos_de_servicio"
+        android:title="@string/menu_admin_reportes" />
+    <item
+        android:id="@+id/nav_admin_ajustes"
+        android:icon="@drawable/configuracion"
+        android:title="@string/menu_admin_ajustes" />
+</menu>

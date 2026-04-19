@@ -12,7 +12,6 @@ class AdminFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Corregido: ya no busca fragment_blank, usa el placeholder de Rutafix
         return inflater.inflate(R.layout.fragment_placeholder, container, false)
     }
 }

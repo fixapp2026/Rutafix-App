@@ -50,6 +50,9 @@
             android:name="com.main.MainActivity"
             android:exported="false" />
 
+        <!-- 7. Main Admin -->
+        <activity android:name="com.main.admin.AdminActivity" />
+
     </application>
 
 </manifest>

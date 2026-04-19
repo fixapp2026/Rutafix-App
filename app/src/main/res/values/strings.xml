@@ -197,4 +197,13 @@
     <string name="editar_perfil">Editar Perfil</string>
     <string name="guardar_cambios">Guardar Cambios</string>
 
+    <!-- Nuevos textos para Admin -->
+    <string name="admin_title">Panel de Administración</string>
+    <string name="menu_admin_tecnicos">Técnicos</string>
+    <string name="menu_admin_reportes">Reportes</string>
+    <string name="menu_admin_ajustes">Ajustes</string>
+    <string name="admin_tecnicos_title">Gestión de Técnicos</string>
+    <string name="admin_reportes_title">Reportes de Servicio</string>
+    <string name="error_datos">Error al cargar los datos</string>
+
 </resources>
