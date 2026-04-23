@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="sans-serif-black"
-            android:text="Estaciones de Servicio"
+            android:text="@string/estaciones_de_servicio"
             android:textColor="@color/azul_profundo"
             android:textSize="18sp" />
     </androidx.appcompat.widget.Toolbar>
@@ -39,7 +39,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#E0E0E0">
+            android:background="@color/gris_claro">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -53,8 +53,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center_horizontal"
                 android:layout_marginBottom="24dp"
-                android:text="Mapa: Buscando estaciones cercanas..."
-                android:textColor="#757575"
+                android:text="@string/mapa_buscando_estaciones_cercanas"
+                android:textColor="@color/gris"
                 android:textSize="12sp" />
         </FrameLayout>
     </androidx.cardview.widget.CardView>
@@ -79,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Estación más cercana"
+                android:text="@string/estaci_n_m_s_cercana"
                 android:textColor="@color/azul_profundo"
                 android:textSize="16sp" />
 
@@ -87,15 +87,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="EDS Terpel - Calle 100"
+                android:text="@string/eds_terpel_calle_100"
                 android:textColor="@color/azul_oscuro"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A 1.2 km • Abierto 24h"
-                android:textColor="#757575"
+                android:text="@string/a_1_2_km_abierto_24h"
+                android:textColor="@color/gris"
                 android:textSize="13sp" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -103,7 +103,7 @@
                 android:layout_height="@dimen/button_height"
                 android:layout_marginTop="@dimen/spacing_md"
                 android:background="@drawable/bg_button_primary"
-                android:text="Cómo llegar"
+                android:text="@string/c_mo_llegar"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textStyle="bold" />

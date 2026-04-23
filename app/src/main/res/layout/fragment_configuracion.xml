@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -44,7 +44,7 @@
                 android:layout_marginBottom="24dp"
                 android:fontFamily="sans-serif"
                 android:text="@string/settings_subtitle"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
 
             <!-- 3. Categoría: Cuenta -->
@@ -99,7 +99,7 @@
                             android:contentDescription="@string/app_name" />
                     </LinearLayout>
 
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gris_claro" />
 
                     <!-- Seguridad -->
                     <LinearLayout
@@ -130,7 +130,7 @@
                             android:contentDescription="@string/app_name" />
                     </LinearLayout>
 
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gris_claro" />
 
                     <!-- Privacidad -->
                     <LinearLayout
@@ -215,7 +215,7 @@
                             android:contentDescription="@string/app_name" />
                     </LinearLayout>
 
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gris_claro" />
 
                     <!-- Idioma -->
                     <LinearLayout
@@ -258,7 +258,7 @@
                 android:layout_marginBottom="32dp"
                 android:text="@string/profile_logout"
                 android:textAllCaps="false"
-                android:textColor="#E53935"
+                android:textColor="@color/rojo"
                 android:textStyle="bold" />
 
         </LinearLayout>

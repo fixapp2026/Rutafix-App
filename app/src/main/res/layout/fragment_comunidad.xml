@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -58,7 +58,7 @@
                 android:layout_marginBottom="24dp"
                 android:fontFamily="sans-serif"
                 android:text="@string/community_subtitle"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
 
             <!-- 3. Contenido Destacado Comercial -->
@@ -89,7 +89,7 @@
                         android:id="@+id/tv_promo_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="20% OFF en Llantas"
+                        android:text="@string/_20_off_en_llantas"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -99,8 +99,8 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/tv_promo_title"
                         android:layout_marginTop="8dp"
-                        android:text="Solo por esta semana en nuestra tienda virtual."
-                        android:textColor="#B3FFFFFF"
+                        android:text="@string/solo_por_esta_semana_en_nuestra_tienda_virtual"
+                        android:textColor="@color/white"
                         android:textSize="14sp" />
 
                     <TextView
@@ -111,7 +111,7 @@
                         android:backgroundTint="@color/naranja"
                         android:paddingHorizontal="16dp"
                         android:paddingVertical="8dp"
-                        android:text="Aprovechar"
+                        android:text="@string/aprovechar"
                         android:textColor="@color/white"
                         android:textStyle="bold"
                         android:textSize="12sp" />
@@ -154,7 +154,7 @@
                             android:layout_height="32dp"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="0dp"
-                            app:cardBackgroundColor="#F0F4F8">
+                            app:cardBackgroundColor="@color/gris_claro">
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -167,7 +167,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="12dp"
-                            android:text="Juan Pérez"
+                            android:text="@string/juan_p_rez"
                             android:textColor="@color/azul_profundo"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -176,8 +176,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="¿Sabías que revisar la presión de tus llantas cada mes puede ahorrarte hasta un 3% en combustible? 🚗💨"
-                        android:textColor="#546E7A"
+                        android:text="@string/sab_as_que_revisar_la_presi_n_de_tus_llantas_cada_mes_puede_ahorrarte_hasta_un_3_en_combustible"
+                        android:textColor="@color/azul_oscuro"
                         android:textSize="14sp"
                         android:lineSpacingExtra="4sp" />
 
@@ -185,8 +185,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Hace 2 horas"
-                        android:textColor="#B0BEC5"
+                        android:text="@string/hace_2_horas"
+                        android:textColor="@color/gris_claro"
                         android:textSize="12sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -216,7 +216,7 @@
                             android:layout_height="32dp"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="0dp"
-                            app:cardBackgroundColor="#F0F4F8">
+                            app:cardBackgroundColor="@color/gris_claro">
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -229,7 +229,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="12dp"
-                            android:text="RutaFix Team"
+                            android:text="@string/rutafix_team"
                             android:textColor="@color/azul_profundo"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -238,8 +238,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="¡Estamos estrenando sección de comunidad! Únete y comparte tus mejores rutas con nosotros. 🛣️✨"
-                        android:textColor="#546E7A"
+                        android:text="@string/estamos_estrenando_secci_n_de_comunidad_nete_y_comparte_tus_mejores_rutas_con_nosotros"
+                        android:textColor="@color/azul_oscuro"
                         android:textSize="14sp"
                         android:lineSpacingExtra="4sp" />
 
@@ -247,8 +247,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Ayer"
-                        android:textColor="#B0BEC5"
+                        android:text="@string/ayer"
+                        android:textColor="@color/gris_claro"
                         android:textSize="12sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

@@ -28,7 +28,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Juan Pérez"
+                android:text="@string/juan_p_rez"
                 android:textColor="@color/azul_oscuro"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -57,7 +57,7 @@
                 android:id="@+id/tvNombrePerfilTecnico"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Juan Pérez"
+                android:text="@string/juan_p_rez"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:textColor="@color/azul_profundo"
@@ -65,7 +65,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ID: #TE-8921 • Técnico Senior"
+                android:text="@string/id_te_8921_t_cnico_senior"
                 android:textColor="@color/gris"
                 android:textSize="14sp"/>
         </LinearLayout>
@@ -83,20 +83,20 @@
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:background="#F0F4F8"
+                android:background="@color/gris_claro"
                 android:padding="16dp"
                 android:layout_marginEnd="8dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="142"
+                    android:text="@string/_142"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     android:textColor="@color/azul_oscuro"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Servicios"
+                    android:text="@string/servicios"
                     android:textSize="12sp"
                     android:textColor="@color/gris"/>
             </LinearLayout>
@@ -107,20 +107,20 @@
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:background="#F0F4F8"
+                android:background="@color/gris_claro"
                 android:padding="16dp"
                 android:layout_marginStart="8dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4.8 ★"
+                    android:text="@string/_4_8"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     android:textColor="@color/naranja"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Calificación"
+                    android:text="@string/calificacion"
                     android:textSize="12sp"
                     android:textColor="@color/gris"/>
             </LinearLayout>
@@ -135,7 +135,7 @@
             android:id="@+id/btnVerHistorialServicios"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:text="Ver Historial de Servicios"
+            android:text="@string/ver_historial_de_servicios"
             android:backgroundTint="@color/azul_oscuro"
             android:textColor="@color/white"
             android:textSize="16sp"

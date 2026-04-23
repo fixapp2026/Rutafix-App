@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bienvenido_a_tu_aventura"
-        android:textColor="#B3FFFFFF"
+        android:textColor="@color/white"
         android:textSize="14sp" />
 
 </LinearLayout>

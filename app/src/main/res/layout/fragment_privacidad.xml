@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -44,7 +44,7 @@
                 android:layout_marginBottom="24dp"
                 android:fontFamily="sans-serif"
                 android:text="@string/privacy_subtitle"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
 
             <!-- 3. Bloque Informativo de Confianza -->
@@ -54,7 +54,7 @@
                 android:layout_marginBottom="24dp"
                 app:cardCornerRadius="@dimen/radius_md"
                 app:cardElevation="0dp"
-                app:cardBackgroundColor="#E3F2FD">
+                app:cardBackgroundColor="@color/gris_claro">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="@string/privacy_info_desc"
-                        android:textColor="#546E7A"
+                        android:textColor="@color/azul_oscuro"
                         android:textSize="13sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -122,7 +122,7 @@
                             android:contentDescription="@string/app_name" />
                     </LinearLayout>
 
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gris_claro" />
 
                     <!-- Exportar Información -->
                     <LinearLayout
@@ -153,7 +153,7 @@
                             android:contentDescription="@string/app_name" />
                     </LinearLayout>
 
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gris_claro" />
 
                     <!-- Política de Privacidad -->
                     <LinearLayout
@@ -195,7 +195,7 @@
                 android:layout_marginBottom="32dp"
                 android:padding="12dp"
                 android:text="@string/privacy_delete_account"
-                android:textColor="#E53935"
+                android:textColor="@color/rojo"
                 android:textStyle="bold"
                 android:textSize="14sp" />
 

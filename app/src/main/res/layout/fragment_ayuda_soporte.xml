@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -44,7 +44,7 @@
                 android:layout_marginBottom="24dp"
                 android:fontFamily="sans-serif"
                 android:text="@string/support_subtitle"
-                android:textColor="#757575"
+                android:textColor="@color/gris_claro"
                 android:textSize="@dimen/text_body" />
 
             <!-- 3. Categoría: Asistencia -->
@@ -99,7 +99,7 @@
                             android:contentDescription="@string/app_name" />
                     </LinearLayout>
 
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gris_claro" />
 
                     <!-- Preguntas Frecuentes -->
                     <LinearLayout
@@ -184,7 +184,7 @@
                             android:contentDescription="@string/app_name" />
                     </LinearLayout>
 
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gris_claro" />
 
                     <!-- Créditos del Equipo -->
                     <LinearLayout
@@ -215,7 +215,7 @@
                             android:contentDescription="@string/app_name" />
                     </LinearLayout>
 
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#EEEEEE" />
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gris_claro" />
 
                     <!-- Calificar Aplicación -->
                     <LinearLayout

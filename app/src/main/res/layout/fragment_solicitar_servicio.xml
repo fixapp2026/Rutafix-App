@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -44,7 +44,7 @@
                 android:layout_marginBottom="@dimen/spacing_xl"
                 android:fontFamily="sans-serif"
                 android:text="@string/service_request_subtitle"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
 
             <!-- 3. Servicios Principales (Grid de 4 servicios: Grúa, Mecánico, Cerrajero, Estaciones) -->
@@ -186,13 +186,13 @@
                             android:layout_height="40dp"
                             android:src="@android:drawable/ic_dialog_map"
                             app:tint="@color/naranja"
-                            android:contentDescription="Estaciones de servicio" />
+                            android:contentDescription="@string/estaciones_de_servicio" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:gravity="center"
-                            android:text="Estaciones"
+                            android:text="@string/estaciones"
                             android:textColor="@color/azul_profundo"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -236,7 +236,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="8dp"
                             android:text="@string/service_location_placeholder"
-                            android:textColor="#757575" />
+                            android:textColor="@color/gris" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -259,7 +259,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Seguimiento de Servicio"
+                        android:text="@string/seguimiento_de_servicio"
                         android:textColor="@color/white"
                         android:textStyle="bold"
                         android:textSize="16sp" />
@@ -267,8 +267,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="Ver el estado de tu asistencia actual"
-                        android:textColor="#F0F4F8"
+                        android:text="@string/ver_el_estado_de_tu_asistencia_actual"
+                        android:textColor="@color/gris_claro"
                         android:textSize="13sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

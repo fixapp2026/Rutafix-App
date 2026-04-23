@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-black"
-        android:text="Sección en Construcción"
+        android:text="@string/secci_n_en_construcci_n"
         android:textColor="@color/azul_profundo"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -36,9 +36,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_md"
         android:fontFamily="sans-serif"
-        android:text="Esta pantalla será parte de la próxima actualización de RutaFix. Estamos trabajando para darte el mejor servicio."
+        android:text="@string/esta_pantalla_ser_parte_de_la_pr_xima_actualizaci_n_de_rutafix_estamos_trabajando_para_darte_el_mejor_servicio"
         android:textAlignment="center"
-        android:textColor="#757575"
+        android:textColor="@color/gris"
         android:textSize="16sp"
         android:lineSpacingExtra="4sp" />
 

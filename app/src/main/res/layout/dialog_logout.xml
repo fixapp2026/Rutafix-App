@@ -40,7 +40,7 @@
             android:fontFamily="sans-serif"
             android:gravity="center"
             android:text="@string/logout_dialog_message"
-            android:textColor="#757575"
+            android:textColor="@color/gris_claro"
             android:textSize="14sp" />
 
         <!-- Acciones -->

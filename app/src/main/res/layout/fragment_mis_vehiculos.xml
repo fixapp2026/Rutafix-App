@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="sans-serif-black"
-            android:text="Mis Vehículos"
+            android:text="@string/mis_veh_culos"
             android:textColor="@color/azul_profundo"
             android:textSize="18sp" />
     </androidx.appcompat.widget.Toolbar>
@@ -43,8 +43,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/spacing_xl"
                 android:fontFamily="sans-serif"
-                android:text="Administra los vehículos asociados a tu cuenta"
-                android:textColor="#757575"
+                android:text="@string/administra_los_veh_culos_asociados_a_tu_cuenta"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
 
             <!-- 3. Listado de Vehículos (Ejemplos Visuales) -->
@@ -81,15 +81,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Mi Camioneta"
+                            android:text="@string/mi_camioneta"
                             android:textColor="@color/azul_profundo"
                             android:textSize="@dimen/text_medium" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Toyota Hilux • ABC-123"
-                            android:textColor="#757575"
+                            android:text="@string/toyota_hilux_abc_123"
+                            android:textColor="@color/gris"
                             android:textSize="@dimen/text_small" />
                     </LinearLayout>
 
@@ -133,15 +133,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Sedán Familiar"
+                            android:text="@string/sed_n_familiar"
                             android:textColor="@color/azul_profundo"
                             android:textSize="@dimen/text_medium" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mazda 3 • XYZ-789"
-                            android:textColor="#757575"
+                            android:text="@string/mazda_3_xyz_789"
+                            android:textColor="@color/gris"
                             android:textSize="@dimen/text_small" />
                     </LinearLayout>
 
@@ -160,7 +160,7 @@
                 android:layout_height="@dimen/button_height"
                 android:background="@drawable/bg_button_primary"
                 android:fontFamily="sans-serif-medium"
-                android:text="+ Registrar nuevo vehículo"
+                android:text="@string/registrar_nuevo_veh_culo"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_medium" />

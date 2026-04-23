@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/spacing_md"
                     android:fontFamily="sans-serif-black"
-                    android:text="Nombre del Usuario"
+                    android:text="@string/nombre_del_usuario"
                     android:textColor="@color/azul_profundo"
                     android:textSize="@dimen/text_title" />
 
@@ -78,8 +78,8 @@
                     android:id="@+id/tv_profile_email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="usuario@rutafix.com"
-                    android:textColor="#757575"
+                    android:text="@string/usuario_rutafix_com"
+                    android:textColor="@color/gris"
                     android:textSize="@dimen/text_body" />
             </LinearLayout>
 
@@ -154,7 +154,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="#EEEEEE" />
+                        android:background="@color/gris_claro" />
 
                     <!-- Item: Seguridad -->
                     <LinearLayout
@@ -192,7 +192,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="#EEEEEE" />
+                        android:background="@color/gris_claro" />
 
                     <!-- Item: Privacidad -->
                     <LinearLayout
@@ -230,7 +230,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="#EEEEEE" />
+                        android:background="@color/gris_claro" />
 
                     <!-- Item: Notificaciones -->
                     <LinearLayout
@@ -268,7 +268,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="#EEEEEE" />
+                        android:background="@color/gris_claro" />
 
                     <!-- Item: Ayuda -->
                     <LinearLayout
@@ -315,7 +315,7 @@
                 android:layout_marginTop="32dp"
                 android:text="@string/profile_logout"
                 android:textAllCaps="false"
-                android:textColor="#E53935"
+                android:textColor="@color/rojo"
                 android:textStyle="bold" />
 
         </LinearLayout>

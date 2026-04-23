@@ -93,7 +93,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginVertical="@dimen/spacing_lg"
-                    android:background="#EEEEEE" />
+                    android:background="@color/gris_claro" />
 
                 <!-- 4. Descripción -->
                 <TextView
@@ -111,8 +111,8 @@
                     android:layout_marginTop="@dimen/spacing_sm"
                     android:fontFamily="sans-serif"
                     android:lineSpacingExtra="4sp"
-                    android:text="Este es un producto de alta calidad diseñado para mejorar el rendimiento de tu vehículo. Fabricado con materiales resistentes y duraderos."
-                    android:textColor="#616161"
+                    android:text="@string/este_es_un_producto_de_alta_calidad_dise_ado_para_mejorar_el_rendimiento_de_tu_veh_culo_fabricado_con_materiales_resistentes_y_duraderos"
+                    android:textColor="@color/gris"
                     android:textSize="@dimen/text_body" />
 
             </LinearLayout>

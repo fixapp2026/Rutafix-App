@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -71,14 +71,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Producto de Ejemplo"
+                            android:text="@string/producto_de_ejemplo"
                             android:textColor="@color/azul_profundo"
                             android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="50.000 COP"
+                            android:text="@string/_50_000_cop"
                             android:textColor="@color/naranja"
                             android:textStyle="bold" />
 
@@ -94,14 +94,14 @@
                                 android:layout_width="24dp"
                                 android:layout_height="24dp"
                                 android:src="@android:drawable/ic_delete"
-                                app:tint="#E53935"
+                                app:tint="@color/rojo"
                                 android:contentDescription="@string/app_name" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginHorizontal="@dimen/spacing_md"
-                                android:text="1"
+                                android:text="@string/_1"
                                 android:textColor="@color/azul_profundo"
                                 android:textStyle="bold" />
 
@@ -153,12 +153,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/cart_subtotal"
-                    android:textColor="#757575" />
+                    android:textColor="@color/gris" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="50.000 COP"
+                    android:text="@string/_50_000_cop"
                     android:textColor="@color/azul_profundo" />
             </LinearLayout>
 
@@ -179,7 +179,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="50.000 COP"
+                    android:text="@string/_50_000_cop"
                     android:textColor="@color/naranja"
                     android:textSize="18sp"
                     android:textStyle="bold" />

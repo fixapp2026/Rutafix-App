@@ -86,7 +86,7 @@
                         android:background="@drawable/dot_active"
                         android:backgroundTint="@color/naranja"
                         android:gravity="center"
-                        android:text="0"
+                        android:text="@string/_0"
                         android:textColor="@color/white"
                         android:textSize="10sp"
                         android:textStyle="bold"

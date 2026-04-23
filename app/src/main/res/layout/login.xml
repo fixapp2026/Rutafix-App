@@ -66,7 +66,7 @@
                 android:layout_marginTop="@dimen/spacing_xs"
                 android:fontFamily="sans-serif"
                 android:text="@string/login_subtitle"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
         </LinearLayout>
 
@@ -159,7 +159,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/no_account"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
 
             <TextView

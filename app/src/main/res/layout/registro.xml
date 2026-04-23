@@ -67,7 +67,7 @@
                 android:layout_marginTop="@dimen/spacing_xs"
                 android:fontFamily="sans-serif"
                 android:text="@string/register_subtitle"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
         </LinearLayout>
 
@@ -185,7 +185,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/terms_text"
-            android:textColor="#757575"
+            android:textColor="@color/gris"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/til_confirm_password" />
 
@@ -224,7 +224,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/have_account"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="@dimen/text_body" />
 
             <TextView

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F9FA">
+    android:background="@color/gris_claro">
 
     <!-- 1. Encabezado Superior -->
     <androidx.appcompat.widget.Toolbar
@@ -62,7 +62,7 @@
                 android:layout_marginTop="8dp"
                 android:fontFamily="sans-serif"
                 android:text="@string/rating_subtitle"
-                android:textColor="#757575"
+                android:textColor="@color/gris"
                 android:textSize="16sp"
                 android:textAlignment="center" />
 
@@ -92,8 +92,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="Cambio de Neumático • 25 May 2024"
-                        android:textColor="#757575"
+                        android:text="@string/cambio_de_neum_tico_25_may_2024"
+                        android:textColor="@color/gris"
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -110,31 +110,31 @@
                     android:layout_height="48dp"
                     android:src="@android:drawable/btn_star_big_on"
                     app:tint="@color/naranja"
-                    android:contentDescription="1 estrella" />
+                    android:contentDescription="@string/_1_estrella" />
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@android:drawable/btn_star_big_on"
                     app:tint="@color/naranja"
-                    android:contentDescription="2 estrellas" />
+                    android:contentDescription="@string/_2_estrellas" />
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@android:drawable/btn_star_big_on"
                     app:tint="@color/naranja"
-                    android:contentDescription="3 estrellas" />
+                    android:contentDescription="@string/_3_estrellas" />
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@android:drawable/btn_star_big_on"
                     app:tint="@color/naranja"
-                    android:contentDescription="4 estrellas" />
+                    android:contentDescription="@string/_4_estrellas" />
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@android:drawable/btn_star_big_on"
                     app:tint="@color/naranja"
-                    android:contentDescription="5 estrellas" />
+                    android:contentDescription="@string/_5_estrellas" />
             </LinearLayout>
 
             <!-- 5. Campo Opcional de Comentario -->

@@ -20,12 +20,12 @@
             android:layout_height="48dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/ic_launcher_foreground" app:tint="@color/azul_oscuro"
-            android:contentDescription="Volver" />
+            android:contentDescription="@string/volver" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Detalle del Servicio"
+            android:text="@string/detalle_del_servicio"
             android:textColor="@color/azul_oscuro"
             android:textSize="22sp"
             android:textStyle="bold"
@@ -45,18 +45,18 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp"
-            android:background="#F0F4F8">
+            android:background="@color/gris_claro">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Servicio Solicitado"
+                android:text="@string/servicio_solicitado"
                 android:textSize="12sp"
                 android:textColor="@color/gris" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Grúa de Plataforma"
+                android:text="@string/grua_de_plataforma"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/azul_profundo"
@@ -65,13 +65,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cliente"
+                android:text="@string/cliente"
                 android:textSize="12sp"
                 android:textColor="@color/gris" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Andrés Felipe"
+                android:text="@string/andr_s_felipe"
                 android:textSize="16sp"
                 android:textColor="@color/negro"
                 android:layout_marginBottom="16dp"/>
@@ -79,26 +79,26 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Estado Actual"
+                android:text="@string/estado_actual"
                 android:textSize="12sp"
                 android:textColor="@color/gris" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="En Camino (15 min)"
+                android:text="@string/en_camino_15_min"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="@color/verde"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#E0E0E0"
+                android:background="@color/gris_claro"
                 android:layout_marginVertical="16dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Técnico Asignado"
+                android:text="@string/tecnico_asignado"
                 android:textSize="12sp"
                 android:textColor="@color/gris" />
 
@@ -117,7 +117,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Carlos Rodríguez"
+                    android:text="@string/carlos_rodriguez"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textColor="@color/azul_profundo"
@@ -129,8 +129,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:background="#E0E0E0"
-        android:text="Mapa de seguimiento simulado\n(Integración futura de Google Maps)"
+        android:background="@color/gris_claro"
+        android:text="@string/mapa_de_seguimiento_simulado_integracion_futura_de_google_maps"
         android:gravity="center"
         android:textColor="@color/gris"
         android:textSize="14sp"/>
@@ -144,7 +144,7 @@
         android:id="@+id/btnContactarCliente"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="Contactar Cliente"
+        android:text="@string/contactar_cliente"
         android:backgroundTint="@color/azul_oscuro"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -156,7 +156,7 @@
         android:id="@+id/btnCerrarServicio"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="Finalizar Servicio"
+        android:text="@string/finalizar_servicio"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:textColor="@color/naranja"
         app:strokeColor="@color/naranja"
